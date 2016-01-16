@@ -1,7 +1,7 @@
 
-int redLightPin = 5;
+int redLightPin = 7;
 int yellowLightPin = 6;
-int greenLightPin = 7;
+int greenLightPin = 5;
 
 int redTime = 10000;
 int yellowTime = 4000;
