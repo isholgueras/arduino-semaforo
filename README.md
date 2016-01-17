@@ -1,15 +1,15 @@
 # arduino-semaforo
 Taller para mostrar cómo crear la lógica de un semáforo con arduino y componentes electrónicos.
 
-## Segunda versión: v1.1
-Como segunda versión, se le puede añadir el semáforo de peatones:
+## Segunda versión: v1.2
+Como muchos semáforos de Madrid tienen un 'beep' cuando está en verde para peatones. ¡Implementémoslo!
 
-Cuando semáforo en rojo:
-  - Luz verde peatones fija 7 segundos
-  - Luz verde peatones parpadea 3 segundos con 500ms de intervalo
-En cualquier otro caso:
-  - Luz roja peatones fija.
+Funcionalidad:
+ - Cuando luz peatones verde fija: Beep 500ms on, 500ms off.
+ - Cuando luz peatones verde parpadea: Beep 100ms on 100ms off.
+ - Cuando luz peatones roja: Beep siempre off.
+ - El sonido podrá ser regulable en volumen.
 
 Materiales:
- - 2 leds adicionales
- - 2 resistencias de 330ohm adicionales
+ - Buzzer.
+ - Potenciómetro.
